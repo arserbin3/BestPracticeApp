@@ -9,7 +9,7 @@ To use this app:
 1. Download Visual Studio 2013 Pro.
   * NOTE -  You can get this for free through:
     * [Dreamspark] (student with .edu email)
-    * [BizSpark] (anyone claiming to be a new business. takes about 1 day approval, and valid for a couple years)
+    * [BizSpark:https://www.microsoft.com/bizspark/signup/default.aspx] (anyone claiming to be a new business. takes about 1 day approval, and valid for a couple years)
     * [Piratebay] (anyone not under US copyright - which is almost no one)
 2. Download [GitHub for Windows]
 3. Clone this repo by dragging/dropping this url onto GitHub for Windows:
