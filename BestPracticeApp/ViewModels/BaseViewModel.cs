@@ -16,7 +16,15 @@
             CurrentTab = currentTab;
         }
 
+        /// <summary>
+        /// This will display in the HTML title tag, as well as the jumbotron title
+        /// </summary>
         public string PageTitle { get; set; }
+
+        /// <summary>
+        /// This will display in the jumbotron description
+        /// </summary>
+        public string PageDescription { get; set; }
 
         public string CurrentTab { get; set; }
 

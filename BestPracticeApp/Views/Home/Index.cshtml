@@ -1,31 +1,22 @@
-﻿@{
-    ViewBag.Title = "Home Page";
+﻿@using BestPracticeApp.Helpers
+@{
+    Model.PageTitle = "Learning MVC";
+    Model.PageDescription = "This app aims to teach and serve as an example of some of the best practices for coding in ASP.Net MVC.";
 }
-
-<div class="jumbotron">
-    <h1>
-        Learning MVC
-    </h1>
-    <p class="lead">
-        This app aims to teach and serve as an example of some of the best practices for coding in ASP.Net MVC.
-    </p>
-</div>
 
 <div class="row">
     <div class="col-md-4">
-        <h2>Who this app is for</h2>
+        <h2>Where to Start</h2>
         <p>
-            ASP.NET MVC gives you a powerful, patterns-based way to build dynamic websites that
-            enables a clean separation of concerns and gives you full control over markup
-            for enjoyable, agile development.<button type="button" class="btn btn-default btn-lg">
-    <span class="glyphicon glyphicon-star"></span> Star
-</button>
+            <ul>
+                <li>New to .Net web development? Begin with @Html.IconActionLink(HtmlHelperExtensions.Glyphicon.Cog, "Tools Setup", "Index", "Setup", null, new { @class = "btn btn-info"})</li>
+            </ul>
 
         </p>
         <p><a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301865">Learn more &raquo;</a></p>
     </div>
     <div class="col-md-4">
-        <h2>Get more libraries</h2>
+        <h2>Dive right in</h2>
         <p>NuGet is a free Visual Studio extension that makes it easy to add, remove, and update libraries and tools in Visual Studio projects.</p>
         <p><a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301866">Learn more &raquo;</a></p>
     </div>
